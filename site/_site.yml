@@ -1,0 +1,15 @@
+brand: ptanguy
+
+bootswatch: flatly #null, yeti, lumen,...
+navbar_inverse: false
+bootstrap: 3.3.6
+navbar_right_items: 5
+
+#baseurl: http://pro.ptanguy.fr 
+
+#reflinks:
+#    ptanguy:
+#        url: http://pro.ptanguy.fr
+#        title: ptanguy
+
+ignore_patterns : [fabfile.py,]
