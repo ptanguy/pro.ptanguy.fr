@@ -1,0 +1,18 @@
+{% extends "_base.html" %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <section id="content" class="body">
+                <h1 class="entry-title">{{ this.title }}</h1>
+                <div class="entry-content">
+                    {{ this.body }}
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
