@@ -1,121 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>ptanguy - pro website</title>
+  <head>
+      <title> ptanguy - News</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="canonical" href="/">
-
+    <meta charset="utf-8">
     <meta name="author" content="ptanguy" />
-    <meta name="description" content="Thank you for visiting. Welcome!" />
-
+ 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" media="screen">
 
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
-</head>
-<body>
+    <link href="/css/style.css" rel="stylesheet" media="screen">
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+ 
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
         <div class="navbar-header">
-            <a href="/index.html" class="navbar-brand">ptanguy</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">ptanguy</a>
         </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                     <li><a href="/news/index.html">News</a></li>
-                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profile<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/profile/cv.html">CV</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/profile/skills.html">Skills</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dissemination<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/dissemination/publications.html">Publications</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/dissemination/talks.html">Talks</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/dissemination/others.html">Others</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Research<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/research/topics.html">Topics</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/research/projects.html">Projects</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Teaching<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/teaching/courses.html">Courses</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/teaching/projects.html">Projects</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/teaching/internships.html">Internships</a></li>
-                        </ul>
-                    </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
+        <div class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-left">
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/news/">News</a></li>
+            <li class="dropdown">
+              <a href="/profile/" class="dropdown-toggle" data-toggle="dropdown">Profile <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/profile/cv.html">CV</a></li>
+                <li><a href="/profile/skills.html">Skills</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="/dissemination/" class="dropdown-toggle" data-toggle="dropdown">Dissemination <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/dissemination/publications.html">Publications</a></li>
+                <li><a href="/dissemination/talks.html">Talks</a></li>
+                <li><a href="/dissemination/others.html">Others</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="/research/" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/research/topics.html">Topics</a></li>
+                <li><a href="/research/projects.html">Projects</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="/teaching/" class="dropdown-toggle" data-toggle="dropdown">Teaching <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/teaching/courses.html">Courses</a></li>
+                <li><a href="/teaching/projects.html">Projects</a></li>
+                <li><a href="/teaching/internships.html">Internships</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
 </div> <!-- /.navbar -->
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
             <ol class="breadcrumb">
-                <li><a href="/index.html" title="ptanguy"><i class="fa fa-home fa-lg"></i></a></li>
-                <li class="active">news</li>
+                <li><a href="/">Home</a></li>
+                <li class="active">News</li>
             </ol>
-        </div>
+
             <section id="content" class="body">
-            <div class="col-lg-8">
-                <h4>Last news</h4>
-                <hr>
-                <h5>PRECIOUS Living Lab Demo @Experiment’HAAL</h5>
-                <p>The living lab <a href="https://www.telecom-bretagne.eu/recherche/plates-formes_technologiques/experiment-haal/" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.telecom-bretagne.eu/recherche/plates-formes_technologiques/experiment-haal/', 'Experiment’Haal ');">Experiment’Haal </a>(Human Ambient Assisting Living) is used in PRECIOUS to realize end-users tests.<br>
-                A living lab is a laboratory where innovations are proposed to users in a controlled environment.<br>
-                Experiment’Haal offers an ecosystem to the PRECIOUS project in order to test individual component such as environmental sensors, body weight scale, user feedback, etc.</p>
-                <p>Demo Precious project in the Experiment’HAAL living lab: <a class='text-success' href="https://vimeo.com/153099732">[video]</a>
-                <hr>
+                <div class="col-lg-8">
+                    <h4><a href="/news/iotcare2016.html">IoTcare 2016</a>
+                        <small>19-Jun-2016</small></h4>
+                </h4>
+                <p>A transparent home Sensors/Actuators layer for Health & Well-being services</p>
+                    <h4><a href="/news/roman2016.html">RO-MAN 2016</a>
+                        <small>23-May-2016</small></h4>
+                </h4>
+                <p>New paper accepted about the Poppy Robot coach for physical exercices in kinaesthetic rehabilitation</p>
+                    <h4><a href="/news/atc2016.html">IEEE ATC 2016</a>
+                        <small>20-May-2016</small></h4>
+                </h4>
+                <p>New paper accepted about security for xAAL</p>
+                    <h4><a href="/news/precious_livinglab_demo.html">PRECIOUS Living Lab Demo @Experiment''HAAL</a>
+                        <small>06-Feb-2016</small></h4>
+                </h4>
+                <p>Video about indoor environment quality and user feedback with the PRECIOUS@Home service</p>
             </div>
             <div class="col-lg-4">
-                    <a class="twitter-timeline" href="https://twitter.com/phtanguy" data-widget-id="681538674731933699">Tweets de @phtanguy</a>
-            </section>
-        </div>
+                <a class="twitter-timeline" href="https://twitter.com/phtanguy" data-widget-id="681538674731933699">Tweets de @phtanguy</a>
+            </div>
+        </section>
     </div>
 </div>
+</div>
+
 <footer>
    <div class="container">
       <hr>
       <div class="row">
          <div class="col-xs-10">&copy; 2015 ptanguy
-             &middot; Powered by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+             &middot; Powered by <a href="http://urubu.jandecaluwe.com" target="_blank">Urubu</a>
          </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
 </footer>
-<script src="/theme/js/jquery.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="/theme/js/respond.min.js"></script>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!-- Twitter widget -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
 
-</body>
+  </body>
 </html>
