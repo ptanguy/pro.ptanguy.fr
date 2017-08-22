@@ -62,7 +62,7 @@ IEEE ATC 2016, July 2016, Toulouse, France.<br>
 <li>
 <strong>A Transparent homeSensors/Actuators layer for Health & Well-being services</strong></br>
 IoTCare 2016, June 2016, Budapest, Hongary.<br>
-<em>Philippe Tanguy,Christophe Lohr and Jérôme Kerdreux</em>
+<em>Philippe Tanguy, Christophe Lohr and Jérôme Kerdreux</em>
 </li>
 <li>
 <strong>In Vehicle Communication Networks: A Power Line Communication Study and Demonstrator for Infortainment Applications.</strong><br>
