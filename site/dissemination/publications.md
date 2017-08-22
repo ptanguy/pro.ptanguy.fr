@@ -7,6 +7,11 @@ layout: basic
 <h3>Journal articles</h3></h3>
 <ul>
 <li>
+<strong>A Transparent home Sensors/Actuators layer for Health & Well-being services.</strong><br>
+EAI Endorsed Transactions on Pervasive Health and Technology, Volume 17, Issue 11, DOI: 10.4108/eai.18-7-2017.152900.<br>
+<em>Philippe Tanguy, Mathieu Simonnet, Christophe Lohr, Jérôme Kerdreux</em>
+</li>
+<li>
 <strong>xAAL: A Distributed Infrastructure for Heterogeneous Ambient Devices.</strong><br>
 Journal of Intelligent Systems,Volume 24, Issue 3, Pages 321–331, ISSN (Online) 2191-026X, ISSN (Print) 0334-1860, DOI: 10.1515/jisys-2014-0144.<br>
 <em>Christophe Lohr, Philippe Tanguy, Jérôme Kerdreux</em>
@@ -39,6 +44,26 @@ InTech Book.<br>
 
 <h3>International conferences</h3>
 <ul>
+<li>
+<strong>Computational architecture of robot coach for physical exercises in kinaesthetic rehabilitation</strong></br>
+Asian Conference on Computer Aided Surgery, October 2016, Daejon, Korea.<br>
+<em>Mai Nguyen, Philippe Tanguy, Olivier Rémy-Néris and André Thépaut</em>
+</li>
+<li>
+<strong>Computational architecture of robot coach for physical exercises in kinaesthetic rehabilitation</strong></br>
+RO-MAN 2016, August 2016, New York, U.S.A.<br>
+<em>Mai Nguyen and Philippe Tanguy</em>
+</li>
+<li>
+<strong>Choosing security elements for the xAAL home automation system</strong></br>
+IEEE ATC 2016, July 2016, Toulouse, France.<br>
+<em>Christophe Lohr, Philippe Tanguy and Jérôme Kerdreux</em>
+</li>
+<li>
+<strong>A Transparent homeSensors/Actuators layer for Health & Well-being services</strong></br>
+IoTCare 2016, June 2016, Budapest, Hongary.<br>
+<em>Philippe Tanguy,Christophe Lohr and Jérôme Kerdreux</em>
+</li>
 <li>
 <strong>In Vehicle Communication Networks: A Power Line Communication Study and Demonstrator for Infortainment Applications.</strong><br>
 ICSNC, Oct 2014, Nice, France. (Best Paper Award)<br>
